@@ -49,7 +49,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        lower_layer {
+        lower {
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
             // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
@@ -57,6 +57,18 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
+            bindings = <
+&kp ESCAPE    &trans  &trans  &trans         &trans     &trans                                 &trans     &trans          &trans           &trans   &trans   &kp DELETE
+&kp TAB       &trans  &trans  &trans         &trans     &trans                                 &kp UNDER  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans   &trans   &kp PAGE_UP
+&kp CAPSLOCK  &trans  &trans  &trans         &trans     &trans                                 &kp MINUS  &kp LBKT        &kp RBKT         &trans   &trans   &kp PAGE_DOWN
+&kp F1        &kp F2  &kp F3  &kp F4         &kp F5     &kp F6  &kp LEFT_WIN    &kp RIGHT_WIN  &kp F7     &kp F8          &kp F9           &kp F10  &kp F11  &kp F12
+                              &kp RIGHT_ALT  &kp RCTRL  &trans  &trans          &trans         &trans     &kp HOME        &kp END
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_2 {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3     &bt BT_SEL 4                                      &trans  &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans             &kp DELETE
 &kp TAB     &trans        &trans        &trans         &rgb_ug RGB_TOG  &ext_power EP_TOG                                 &trans  &kp MINUS         &kp EQUAL          &kp LEFT_BRACE     &kp RIGHT_BRACE    &kp PAGE_UP
