@@ -74,8 +74,8 @@
 &kp ESCAPE    &trans  &trans  &trans         &trans     &trans                                 &trans     &trans          &trans           &trans   &trans   &kp DELETE
 &kp TAB       &trans  &trans  &trans         &trans     &trans                                 &kp UNDER  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans   &trans   &kp PAGE_UP
 &kp CAPSLOCK  &trans  &trans  &trans         &trans     &trans                                 &kp MINUS  &kp LBKT        &kp RBKT         &trans   &trans   &kp PAGE_DOWN
-&kp F1        &kp F2  &kp F3  &kp F4         &kp F5     &kp F6  &kp LEFT_WIN    &kp RIGHT_WIN  &kp F7     &kp F8          &kp F9           &kp F10  &kp F11  &kp F12
-                              &kp RIGHT_ALT  &kp RCTRL  &trans  &trans          &trans         &trans     &kp HOME        &kp END
+&kp F1        &kp F2  &kp F3  &kp F4         &kp F5     &kp F6  &trans          &trans         &kp F7     &kp F8          &kp F9           &kp F10  &kp F11  &kp F12
+                              &kp RIGHT_ALT  &kp RCTRL  &trans  &kp LEFT_WIN    &kp RIGHT_WIN  &trans     &kp HOME        &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
