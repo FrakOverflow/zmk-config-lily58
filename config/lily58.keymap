@@ -16,6 +16,8 @@
             label = "TD_SHIFTCAPS";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT>, <&kp CAPSLOCK>;
+
+            tapping-term-ms = <350>;
         };
 
         td_LowerShift: td_LowerShift {
@@ -23,6 +25,8 @@
             label = "TD_LOWERSHIFT";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp LEFT_SHIFT>;
+
+            tapping-term-ms = <350>;
         };
     };
 
