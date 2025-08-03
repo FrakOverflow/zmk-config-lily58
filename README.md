@@ -9,7 +9,7 @@ Features:
 - Custom keymap for efficient coding
 
 ## TO DO
-- Fix right EC11, firmware does not support this currently (see branch right-side-EC11)
+- Fix right EC11, stock firmware does not support this, currently only push button works on right (see branch right-side-EC11)
 - Can the EC11s be context dependant? (I want to change brush size in an editor, but scroll in a browser, etc)
 
 ## Resources
