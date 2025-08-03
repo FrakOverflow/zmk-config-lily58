@@ -13,6 +13,6 @@ Features:
 - Can the EC11s be context dependant? (I want to change brush size in an editor, but scroll in a browser, etc)
 
 ## Resources
-https://nickcoutsos.github.io/keymap-editor - keymap/behaviour management GUI for ZMK
 https://zmk.dev/docs - ZMK docs
+https://nickcoutsos.github.io/keymap-editor - keymap/behaviour management GUI for ZMK
 https://kriscables.com/category/guide - DIY keyboard guides Lily58, NiceNanoV2, ZMK, +more
