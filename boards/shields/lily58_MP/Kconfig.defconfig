@@ -2,7 +2,7 @@
 if SHIELD_LILY58_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "TERRIBLE-TWO"
+    default "TERRIBLE2"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
